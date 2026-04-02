@@ -29,7 +29,7 @@ const consoleFormat = winston.format.printf(({ level, message, timestamp, ...met
 
 const logger = winston.createLogger({
   level: 'debug',
-  defaultMeta: { service: 'tiktok-connect' },
+  defaultMeta: { service: 'happy-agent' },
   transports: [
     // Console — human readable
     new winston.transports.Console({

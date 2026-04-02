@@ -26,7 +26,7 @@ const logger = require('./utils/logger');
 
 async function main() {
   logger.info('╔══════════════════════════════════════════╗');
-  logger.info('║   TikTok Connect — Auto Invite System    ║');
+  logger.info('║   HappyAgent — Auto Invite System    ║');
   logger.info('╚══════════════════════════════════════════╝');
 
   // ── Load Config ──

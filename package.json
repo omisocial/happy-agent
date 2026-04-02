@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-connect",
+  "name": "happy-agent",
   "version": "1.0.0",
   "description": "TikTok Shop Creator Auto-Invite System with Self-Healing Architecture",
   "main": "src/orchestrator.js",
@@ -8,6 +8,7 @@
     "dry-run": "DRY_RUN=true node src/orchestrator.js",
     "heal": "node src/healer.js",
     "test": "node --test src/tests/",
+    "test:gate": "vitest run --reporter=verbose",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs"
   },
@@ -28,7 +29,11 @@
   },
   "private": true,
   "devDependencies": {
+    "glob": "^13.0.6",
+    "jsdom": "^29.0.1",
+    "supertest": "^7.2.2",
     "vitepress": "^1.6.4",
+    "vitest": "^4.1.2",
     "vue": "^3.5.31"
   }
 }

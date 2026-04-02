@@ -1,12 +1,12 @@
 ---
 title: "Triết lý Thiết kế Kiến trúc (Design Philosophy)"
-description: "Tại sao hệ thống TikTok Connect lại có kiến trúc phức tạp (Stealth + Healer 2.0)? Giải thích chi tiết cho đội ngũ Phát triển & Kỹ thuật."
+description: "Tại sao hệ thống HappyAgent lại có kiến trúc phức tạp (Stealth + Healer 2.0)? Giải thích chi tiết cho đội ngũ Phát triển & Kỹ thuật."
 robots: "index, follow"
 ---
 
-# Tại sao Hệ thống TikTok Connect lại được kiến trúc như hiện tại?
+# Tại sao Hệ thống HappyAgent lại được kiến trúc như hiện tại?
 
-Tài liệu này giải mã toàn bộ logic kiến trúc của **TikTok Connect** và lý do bắt buộc phải thiết kế hệ thống theo mô hình có vẻ "phức tạp" (Healer 2.0 + Stealth). Mục tiêu của Tool này không chỉ là một kịch bản thao tác web automation bình thường, mà là xây dựng một kiến trúc **chống lại 2 hàng rào phòng thủ gắt gao nhất của nền tảng: (1) Tránh hệ thống phát hiện Bot (Anti-Bot Detection) & (2) Thay đổi giao diện liên tục (Dynamic UI / A/B Testing)**.
+Tài liệu này giải mã toàn bộ logic kiến trúc của **HappyAgent** và lý do bắt buộc phải thiết kế hệ thống theo mô hình có vẻ "phức tạp" (Healer 2.0 + Stealth). Mục tiêu của Tool này không chỉ là một kịch bản thao tác web automation bình thường, mà là xây dựng một kiến trúc **chống lại 2 hàng rào phòng thủ gắt gao nhất của nền tảng: (1) Tránh hệ thống phát hiện Bot (Anti-Bot Detection) & (2) Thay đổi giao diện liên tục (Dynamic UI / A/B Testing)**.
 
 ---
 

@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "TikTok Connect",
+  title: "HappyAgent",
   description: "Trang hướng dẫn sử dụng Hệ thống tự động mời Creator",
   lang: 'vi-VN',
   themeConfig: {

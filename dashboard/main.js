@@ -19,7 +19,23 @@ function checkOnboarding() {
   }
 }
 
+function toggleObHint() {
+  const engine = document.getElementById('ob-ai-engine').value;
+  const hint = document.getElementById('ob-ai-hint');
+  if (engine === 'not_installed') {
+    hint.classList.remove('hidden');
+  } else {
+    hint.classList.add('hidden');
+  }
+}
+
 function nextOnboardingStep(step) {
+  // Validate if they selected not_installed
+  const engine = document.getElementById('ob-ai-engine').value;
+  if (step === 2 && engine === 'not_installed') {
+    showToast("Vui lòng làm theo hướng dẫn cài đặt thuật toán AI trước khi tiếp tục!");
+    return;
+  }
   document.querySelectorAll('.onboarding-step').forEach(el => el.classList.add('hidden'));
   document.getElementById(`step-${step}`).classList.remove('hidden');
 }

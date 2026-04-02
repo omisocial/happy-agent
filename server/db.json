@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "id": "s1",
+      "name": "TikTok Creator Invite",
+      "successRate": 98,
+      "status": "Active",
+      "createdAt": "2026-04-02T08:48:58.422Z"
+    },
+    {
+      "id": "s2",
+      "name": "Shopee Competitor Scraper",
+      "successRate": 85,
+      "status": "Active",
+      "createdAt": "2026-04-02T08:48:58.423Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "p1",
+      "name": "shop_1",
+      "enabled": true
+    },
+    {
+      "id": "p2",
+      "name": "shop_2",
+      "enabled": true
+    },
+    {
+      "id": "p3",
+      "name": "personal_account",
+      "enabled": false
+    }
+  ],
+  "jobs": []
+}

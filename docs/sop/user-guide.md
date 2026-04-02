@@ -1,6 +1,6 @@
 ---
 title: "Hướng dẫn sử dụng (User Guide)"
-description: "Cẩm nang hướng dẫn tạo Data, vận hành và xử lý lỗi phần mềm TikTok Connect"
+description: "Cẩm nang hướng dẫn tạo Data, vận hành và xử lý lỗi phần mềm HappyAgent"
 robots: "index, follow"
 ---
 

@@ -18,11 +18,23 @@
         <div class="onboarding-step" id="step-1">
           <h3>Bước 1: Chọn Tốc lực AI</h3>
           <p>Hệ thống tự động phát hiện AI có sẵn trên máy của bạn. Hãy chọn một AI làm "Công nhân":</p>
-          <select id="ob-ai-engine" class="ob-input">
+          <select id="ob-ai-engine" class="ob-input" onchange="toggleObHint()">
             <option value="agent-browser">Agent-browser (Bấm/Tương tác Web - Chuyên Dùng)</option>
             <option value="antigravity">Antigravity (Xử lý Data)</option>
-            <option value="claude">Claude CLI (Nâng cao)</option>
+            <option value="claude">Claude CLI (Nâng cao - Trả phí Token)</option>
+            <option value="not_installed">Chưa cài đặt công cụ AI nào (Cần hướng dẫn cài Miễn Phí)</option>
           </select>
+          
+          <div id="ob-ai-hint" class="ob-hint hidden">
+            💡 <strong>Mẹo tiết kiệm chi phí:</strong> Để máy tính tự thao tác mà <b>không tốn phi API Token</b>, bạn hãy tải các CLI Miễn Phí. Mở cửa sổ Terminal (hoặc CMD) và chạy 1 trong 2 lệnh sau:
+            <br/><br/>
+            <code class="code-copy">npm install -g @google/gemini-cli</code> (Gemini CLI của Google)<br/>
+            hoặc<br/>
+            <code class="code-copy">npm install -g opencode</code> (Opencode)<br/>
+            <br/>
+            Sau khi cài xong, chọn lại công cụ ở trên và bấm Tiếp theo!
+          </div>
+
           <button class="btn btn-primary btn-next" onclick="nextOnboardingStep(2)">Tiếp theo</button>
         </div>
 

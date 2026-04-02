@@ -465,6 +465,30 @@ p { color: var(--text-secondary); }
   align-items: center;
 }
 
+.ob-hint {
+  background-color: #fffbeb;
+  border-left: 4px solid var(--warning);
+  padding: 15px;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: #92400e;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.ob-hint code {
+  background: #fef08a;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-weight: 600;
+  color: #b45309;
+}
+
+.ob-hint.hidden {
+  display: none;
+}
+
 /* LOG TAB (FOR TECHNICAL USERS) */
 .terminal-container {
   background-color: #0f172a;

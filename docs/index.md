@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "TikTok Connect"
+  name: "HappyAgent"
   text: "Tự động mời Creator với Self-Healing AI"
   tagline: "Hệ thống Automation với công nghệ CloakBrowser Stealth & Healer 2.0"
   actions:
@@ -32,5 +32,5 @@ features:
 *   [Hướng dẫn sử dụng & Vận hành (SOP)](/sop/user-guide.md)
 *   [Kiến trúc Hệ thống (Dev)](/architecture.md)
 *   [Triết lý thiết kế Hệ thống](/philosophy.md)
-*   [Hồ sơ Đề xuất (Proposal)](https://github.com/omisocial/tiktok-connect/tree/main/openspec)
+*   [Hồ sơ Đề xuất (Proposal)](https://github.com/omisocial/happy-agent/tree/main/openspec)
 

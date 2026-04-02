@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ==============================================================================
-# TikTok Connect Orchestrator Bash Loop
+# HappyAgent Orchestrator Bash Loop
 # ==============================================================================
 # This script keeps the automation running and triggers the AI Healer
 # when Playwright encounters a selector error (Exit Code 1).
@@ -14,7 +14,7 @@ HEAL_COUNT=0
 cd "$(dirname "$0")/.." || exit 1
 
 echo "========================================================"
-echo "🚀 Starting TikTok Connect Self-Healing Loop"
+echo "🚀 Starting HappyAgent Self-Healing Loop"
 echo "========================================================"
 
 while true; do

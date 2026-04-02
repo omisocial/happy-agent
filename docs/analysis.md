@@ -1,6 +1,6 @@
 ---
 title: "Codebase Analysis"
-description: "Phân tích cấu trúc thư mục, kiến trúc và test coverage của TikTok Connect"
+description: "Phân tích cấu trúc thư mục, kiến trúc và test coverage của HappyAgent"
 robots: "index, follow"
 ---
 
@@ -15,7 +15,7 @@ robots: "index, follow"
 ## 1. Cấu trúc thư mục (Directory Structure)
 
 ```text
-TikTokConnect/
+HappyAgent/
 ├── config/                  # Configuration Layer
 │   ├── creators.csv         # Danh sách Creators
 │   ├── message-template.json# Template thư mời
