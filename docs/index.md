@@ -33,3 +33,4 @@ features:
 *   [Hướng dẫn sử dụng & Vận hành Cấu hình](/sop/user-guide.md)
 *   [Kiến trúc Hệ thống (Dev)](/architecture.md)
 *   [Triết lý thiết kế Hệ thống](/philosophy.md)
+*   [Demo Workflow Kỹ Năng](/skill_demo.md)

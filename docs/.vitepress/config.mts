@@ -17,7 +17,8 @@ export default defineConfig({
         items: [
           { text: 'Playbook Từng Phòng Ban', link: '/playbook' },
           { text: 'Hướng dẫn Cấu hình', link: '/sop/user-guide' },
-          { text: 'Thực Chiến Step-by-Step', link: '/sop/step-by-step' }
+          { text: 'Thực Chiến Step-by-Step', link: '/sop/step-by-step' },
+          { text: 'Hướng dẫn OpenClaw cho Non-Tech', link: '/sop/openclaw-business-guide' }
         ]
       },
       {
