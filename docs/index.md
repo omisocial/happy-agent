@@ -3,23 +3,23 @@ layout: home
 
 hero:
   name: "HappyAgent"
-  text: "Tự động mời Creator với Self-Healing AI"
-  tagline: "Hệ thống Automation với công nghệ CloakBrowser Stealth & Healer 2.0"
+  text: "Hệ Thống Tự Hành Đa Nền Tảng"
+  tagline: "Universal Automator - Dạy một lần, Dùng mãi mãi. Tối ưu Token với Local AI CLI."
   actions:
     - theme: brand
-      text: "Bắt đầu ngay"
-      link: "/sop/user-guide"
+      text: "Xem Playbook Các Phòng Ban"
+      link: "/playbook"
     - theme: alt
       text: "Triết lý Thiết kế"
       link: "/philosophy"
 
 features:
-  - title: "CloakBrowser Stealth"
-    details: "Vượt qua bài test Anti-Bot của TikTok với cấu hình Chrome giả lập nhân dạng con người tự động hóa (Hardware fingerprint)."
-  - title: "Healer 2.0"
-    details: "Module AI tự động khắc phục sự cố UI thay đổi, lưu trữ qua Continuity Memory và bảo vệ hệ thống bằng Local Test-Gate ẩn."
-  - title: "Quản lý Đa Profile"
-    details: "Mời hàng ngàn Creator với các Shop riêng biệt hoàn toàn tách biệt tài nguyên cache."
+  - title: "Universal Automator"
+    details: "Không chỉ gắn chặt với TikTok, Happy Agent điều hướng tự hành qua mọi nền tảng: Shopee, Lazada, Kế toán, HR và ERP nội bộ."
+  - title: "Zero Token Cost (Local CLI)"
+    details: "Tận dụng các mô hình ngôn ngữ và CLI Agent mạnh mẽ có sẵn (như Gemini CLI, Opencode) được cấu hình tại máy nội bộ, không phụ thuộc API trả phí."
+  - title: "Healer 2.0 (Self-Healing)"
+    details: "Module AI tự động khắc phục sửa lỗi UI/DOM, lưu trữ bài học qua Continuity Memory & giao diện Light Mode siêu thân thiện."
 ---
 
 <br>
@@ -29,8 +29,7 @@ features:
   <h2>Tài liệu nhanh</h2>
 </div>
 
-*   [Hướng dẫn sử dụng & Vận hành (SOP)](/sop/user-guide.md)
+*   [Playbook - Hướng dẫn tự động hoá Theo Bộ Phận (Boxme)](/playbook.md)
+*   [Hướng dẫn sử dụng & Vận hành Cấu hình](/sop/user-guide.md)
 *   [Kiến trúc Hệ thống (Dev)](/architecture.md)
 *   [Triết lý thiết kế Hệ thống](/philosophy.md)
-*   [Hồ sơ Đề xuất (Proposal)](https://github.com/omisocial/happy-agent/tree/main/openspec)
-

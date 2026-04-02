@@ -2,20 +2,21 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "HappyAgent",
-  description: "Trang hướng dẫn sử dụng Hệ thống tự động mời Creator",
+  description: "Cỗ máy Tự động hoá Vạn năng (Universal Automator)",
   lang: 'vi-VN',
   themeConfig: {
     nav: [
       { text: 'Trang chủ', link: '/' },
-      { text: 'Hướng dẫn sử dụng', link: '/sop/user-guide' },
-      { text: 'Kiến trúc', link: '/architecture' }
+      { text: 'Playbook', link: '/playbook' },
+      { text: 'SOP Hướng dẫn', link: '/sop/user-guide' }
     ],
 
     sidebar: [
       {
-        text: 'Vận hành (SOP)',
+        text: 'Vận hành Cốt lõi',
         items: [
-          { text: 'Hướng dẫn sử dụng', link: '/sop/user-guide' }
+          { text: 'Playbook Từng Phòng Ban', link: '/playbook' },
+          { text: 'Hướng dẫn Cấu hình', link: '/sop/user-guide' }
         ]
       },
       {
