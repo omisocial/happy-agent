@@ -32,5 +32,5 @@ features:
 *   [Hướng dẫn sử dụng & Vận hành (SOP)](/sop/user-guide.md)
 *   [Kiến trúc Hệ thống (Dev)](/architecture.md)
 *   [Triết lý thiết kế Hệ thống](/philosophy.md)
-*   [Hồ sơ Đề xuất (Proposal)](/openspec/changes/tiktok-connect/proposal.md)
+*   [Hồ sơ Đề xuất (Proposal)](https://github.com/omisocial/tiktok-connect/tree/main/openspec)
 
