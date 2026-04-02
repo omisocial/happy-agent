@@ -1,0 +1,16 @@
+{
+  "profiles": [
+    {
+      "name": "Shop 1",
+      "path": "./chrome_profiles/shop_1",
+      "enabled": true,
+      "fingerprintSeed": "boxme_shop1_42069"
+    },
+    {
+      "name": "Shop 2",
+      "path": "./chrome_profiles/shop_2",
+      "enabled": true,
+      "fingerprintSeed": "boxme_shop2_13337"
+    }
+  ]
+}
