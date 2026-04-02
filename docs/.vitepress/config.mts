@@ -16,7 +16,8 @@ export default defineConfig({
         text: 'Vận hành Cốt lõi',
         items: [
           { text: 'Playbook Từng Phòng Ban', link: '/playbook' },
-          { text: 'Hướng dẫn Cấu hình', link: '/sop/user-guide' }
+          { text: 'Hướng dẫn Cấu hình', link: '/sop/user-guide' },
+          { text: 'Thực Chiến Step-by-Step', link: '/sop/step-by-step' }
         ]
       },
       {
